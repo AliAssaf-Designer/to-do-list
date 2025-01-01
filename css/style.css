@@ -67,7 +67,7 @@
         width: 100%;
         /* Old Tasks Edit Note */
         .note{
-            width: 50%;
+            width: 75%;
             padding: 5px;
             margin: 10px auto;
             background-color: rgb(252, 252, 95);
@@ -83,7 +83,7 @@
         /* List */
         .list-menu{
             /* List Item */
-            li{
+            .list-item{
                 width: 100%;
                 border-bottom: 1px solid grey;
                 display: flex;
@@ -96,14 +96,14 @@
                     border-left: 1px solid grey;
                     padding: 0 5px;
                     margin: 5px 0;
-                    img{
+                    .operation-icon{
                         width: 30px;
                         border-radius: 5px;
                         padding: 5px;
                         box-shadow: 0 5px 5px rgba(128, 128, 128, 0.699);
                         transition: all 150ms ease-in-out;
                     }
-                    img:active{
+                    .operation-icon:active{
                         box-shadow: none;
                         transform: translateY(5px);
                     }
@@ -118,7 +118,7 @@
                     }
                 }
             }
-            li:nth-child(odd){
+            .list-item:nth-child(odd){
                 background-color: rgb(212, 212, 212);
             }
         }
