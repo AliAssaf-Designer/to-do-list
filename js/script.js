@@ -14,12 +14,12 @@ let edit;
 add_to_list.addEventListener("click", add_item);
 function add_item(){
     menu.innerHTML += 
-    `<li>
+    `<li class="list-item">
         <p>${input_task.value}</p>
         <div class="edit-items">
-            <img src="./img/check-double-fill.svg" alt="complete" class="complete">
-            <img src="./img/delete-bin-6-line.svg" alt="delete" class="delete">
-            <img src="./img/edit-2-line.svg" alt="edit" class="edit">
+            <img src="./img/check-double-fill.svg" alt="complete" class="operation-icon complete">
+            <img src="./img/delete-bin-6-line.svg" alt="delete" class="operation-icon delete">
+            <img src="./img/edit-2-line.svg" alt="edit" class="operation-icon edit">
         </div>
     </li>`;
 };
